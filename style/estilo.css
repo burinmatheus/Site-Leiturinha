@@ -1,0 +1,1349 @@
+html {
+    font-family: 'Archivo', sans-serif;
+    font: 16px arial;
+    background-color: #f1f3f4;
+    color: #525f7f;
+}
+
+body {
+    width: 100%;
+    max-width: 90em;
+    min-width: 20em;
+    margin: 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+
+/*Padrões*/
+
+.to-bold,
+.slide-texto h1 {
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.rosa {
+    color: #c34394;
+}
+
+.azul {
+    color: #08b0bc;
+}
+
+.laranja {
+    color: #ff9b0b;
+}
+
+.amarelo {
+    color: #f8c803;
+}
+
+.central {
+    display: flex;
+    width: 79%;
+    margin: 0 auto;
+}
+
+
+/*Navbar*/
+
+.menu {
+    width: 100%;
+    height: 6.3em;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: white;
+}
+
+.menu #logo-menu img {
+    width: 100%;
+    max-width: 18.5em;
+    margin: 1.18em 0 0 3%
+}
+
+.menu nav {
+    float: right;
+    margin: 2.6em 3% 0 0;
+}
+
+.menu nav a {
+    text-decoration: none;
+    color: #4e6363;
+    letter-spacing: -.04em;
+    margin: 0 1.37em 0 1.19em;
+    vertical-align: top;
+}
+
+.menu nav a:hover {
+    color: #7E7CB6;
+}
+
+.menu nav #login-btn {
+    display: inline-block;
+    position: relative;
+    top: -6px;
+    overflow: hidden;
+    height: 4em;
+    overflow: visible;
+}
+
+.menu nav #login-btn #box-login {
+    background-color: #F0F0F0;
+    width: fit-content;
+    padding: .63em;
+    border-radius: 1.18em;
+}
+
+.menu nav #login-btn #login-popup {
+    margin-top: 1em;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 19px;
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, .15);
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    top: 2em;
+    right: -2.5em;
+    display: none;
+}
+
+.menu nav #login-btn #login-popup a:hover {
+    opacity: .8;
+}
+
+.menu nav #login-btn #login-popup a i {
+    vertical-align: top;
+    margin-right: 0.5em;
+}
+
+.menu nav #login-btn a {
+    color: #F36078;
+    font-weight: 600;
+    margin: .5em;
+}
+
+.menu nav #login-btn #box-login a img {
+    margin-left: .7em;
+    transition: .2s;
+}
+
+.menu nav #login-btn:hover #box-login a img {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.menu nav #login-btn:hover #login-popup {
+    display: block;
+}
+
+
+/*APRESENTAÇÃO*/
+
+.apresentacao {
+    background-size: cover;
+    background-image: url(../img/topo-menina-livro.jpg);
+}
+
+.apresentacao .onda-roxa {
+    display: none;
+}
+
+.apresentacao .central .apresentacao-conteudo {
+    width: 26em;
+    color: white;
+    margin: 7.8em 0 7em;
+}
+
+.apresentacao .central .apresentacao-conteudo h1 {
+    text-shadow: -2px 2px 10px rgba(0, 0, 0, 0.3);
+    font-size: 2.9em;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 1.2em;
+    letter-spacing: -4px;
+}
+
+.apresentacao .central .apresentacao-conteudo p {
+    margin-bottom: 5em;
+    line-height: 1.8em;
+}
+
+.apresentacao .central .apresentacao-conteudo .btn-conhecaokit a,
+.comofunciona .passos .btn-aproveiteagora a,
+.comovocevaireceber .btn-aproveiteagora a {
+    background-color: #f36078;
+    text-decoration: none;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 1.1em 5em;
+    border-radius: 3em;
+    box-shadow: 0 3px 0 #ef3150;
+    text-shadow: -1px 1px 0px #00000057;
+}
+
+.btn-aproveiteagora {
+    display: none;
+}
+
+.apresentacao .central .apresentacao-conteudo .btn-conhecaokit a:hover {
+    background-color: #f5788c;
+}
+
+.apresentacao .div-onda {
+    line-height: 0;
+    position: relative;
+    top: 3px;
+}
+
+
+/*COMO FUNCIONA*/
+
+.comofunciona {
+    background-color: #01AEBA;
+    color: white;
+    padding: 3em 0;
+}
+
+.comofunciona .comofunciona-titulo {
+    width: 24%;
+    vertical-align: top;
+    padding: 5em 0 0 0;
+}
+
+.comofunciona .passos .comofunciona-titulo,
+.comofunciona .passos ul {
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.comofunciona .comofunciona-titulo h1 {
+    font-size: 2.4em;
+    font-family: 'Archivo Black', sans-serif;
+    line-height: 1em;
+    margin: .5em 0;
+    letter-spacing: -1.5px;
+}
+
+.comofunciona .comofunciona-titulo h2 {
+    font-size: 1.1em;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    letter-spacing: -0.9px;
+}
+
+.comofunciona .passos ul {
+    width: 75%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.comofunciona .passos ul li {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 32%;
+    padding-right: 1em;
+    vertical-align: text-top;
+}
+
+.comofunciona .passos ul li:last-child {
+    padding-right: 0;
+}
+
+.comofunciona .passos ul li img {
+    width: 84%;
+    max-width: 12.5em;
+}
+
+.comofunciona .passos ul li h1 {
+    font-size: 1.5em;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: -.8px;
+}
+
+.comofunciona .passos ul li p {
+    font-size: 1.1em;
+}
+
+.comofunciona .img-cinza {
+    display: none;
+}
+
+
+/*COMO VOCE VAI RECEBER*/
+
+.comovocevaireceber div.div-onda-inversa img.onda-cinza {
+    display: none;
+}
+
+.comovocevaireceber div.div-onda-inversa img {
+    transform: rotate(180deg);
+    position: relative;
+    top: -3px;
+}
+
+.comovocevaireceber h1.titulo {
+    font-size: 3em;
+    margin: 1.5em 0;
+    font-family: 'Archivo Black', sans-serif;
+    color: #525f7f;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.comovocevaireceber h1 .color-pink {
+    color: #c34394;
+}
+
+.comovocevaireceber #carroussel,
+.comovocevaireceber #principal-carroussel,
+.comovocevaireceber #slide,
+.comovocevaireceber #slide p {
+    margin: 0;
+    padding: 0;
+}
+
+.comovocevaireceber #carroussel {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel .slide {
+    display: flex;
+    width: 400%;
+    margin-left: 7%;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel .slide div {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.comovocevaireceber #carroussel label p {
+    width: 100%;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    background-color: transparent;
+}
+
+.comovocevaireceber #carroussel #slide02:checked~.principal-carroussel .slide {
+    margin-left: -97%;
+}
+
+.comovocevaireceber #carroussel #slide03:checked~.principal-carroussel .slide {
+    margin-left: -200%;
+}
+
+.comovocevaireceber #carroussel #slide04:checked~.principal-carroussel .slide {
+    margin-left: -304%;
+}
+
+.comovocevaireceber #carroussel input[type=radio] {
+    display: none;
+}
+
+.comovocevaireceber #carroussel input[id=slide01]:checked+label p {
+    background-color: #c34494;
+    color: white;
+}
+
+.comovocevaireceber #carroussel input[id=slide02]:checked+label p {
+    background-color: #00aeba;
+    color: white;
+}
+
+.comovocevaireceber #carroussel input[id=slide03]:checked+label p {
+    background-color: #eb7c1e;
+    color: white;
+}
+
+.comovocevaireceber #carroussel input[id=slide04]:checked+label p {
+    background-color: #f8c800;
+    color: white;
+}
+
+.comovocevaireceber #carroussel .label-rosa {
+    color: #c34494;
+}
+
+.comovocevaireceber #carroussel .label-azul {
+    color: #00aeba;
+}
+
+.comovocevaireceber #carroussel .label-laranja {
+    color: #eb7c1e;
+}
+
+.comovocevaireceber #carroussel .label-amarelo {
+    color: #f8c800;
+}
+
+.comovocevaireceber #carroussel .circulo {
+    display: none;
+}
+
+.comovocevaireceber #carroussel label p {
+    font-size: 1em;
+    display: inline;
+    line-height: 175%;
+    padding: 1em 2.2%;
+    border-radius: 3em;
+    border: 1px solid beige;
+}
+
+.comovocevaireceber .central {
+    display: block;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel div.slide-texto {
+    width: 50%;
+    display: inline-block;
+    margin-top: 5.5em
+}
+
+.comovocevaireceber #carroussel .principal-carroussel div.slide-texto h1 {
+    font-size: 2.6em;
+    text-align: left;
+    line-height: 1em;
+    letter-spacing: -.06em;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel div.slide-texto p {
+    font-size: 1.125em;
+    text-align: left;
+    line-height: 1.9em;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel div.imagem {
+    width: 44%;
+    display: block;
+    float: right;
+    padding-top: 3em;
+}
+
+.comovocevaireceber #carroussel .principal-carroussel div.imagem img {
+    width: 100%
+}
+
+
+/*PLANOS*/
+
+.planos {
+    height: 92em;
+}
+
+.planos .central {
+    display: block;
+    position: relative;
+}
+
+.planos .planos-background img {
+    max-width: 31em;
+    width: 100%;
+    position: absolute;
+}
+
+.planos .planos-cabecalho {
+    width: fit-content;
+    display: inline-block;
+    margin: 5.8em 0 3.8em 22em;
+    text-align: center;
+}
+
+.planos .planos-cabecalho h1 {
+    color: #F36078;
+    font-size: 3em;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    line-height: .9em;
+}
+
+.planos .planos-cabecalho h2 {
+    color: #A8AFBF;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    font-family: 'Archivo Black', sans-serif;
+    margin: .5em 0 0 0;
+    line-height: 1em;
+}
+
+.planos .planos-box {
+    position: relative;
+}
+
+.planos .planos-box .plano {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: -8.5em;
+    margin: .6%;
+    float: right;
+    border-radius: .9em .9em 1.5em 1.5em;
+    width: 32%;
+    max-width: 22em;
+    display: block;
+    padding: .7em;
+    box-sizing: border-box;
+    height: 57.8em;
+}
+
+.planos .planos-box.mobile .plano {
+    display: none;
+}
+
+.planos .planos-box .mini {
+    background-image: url(../img/background-planos-03.jpg);
+    box-shadow: 0 11px 20px 1px rgba(0, 183, 196, 0.28);
+    border: 1px solid rgba(0, 183, 196, 0.28);
+}
+
+.planos .planos-box .uni {
+    background-image: url(../img/background-planos-01.jpg);
+    position: relative;
+    box-shadow: 0 11px 20px 1px rgba(237, 69, 97, 0.28);
+    border: 1px solid rgba(237, 69, 97, 0.28);
+}
+
+.planos .planos-box .duni {
+    background-image: url(../img/background-planos-02.jpg);
+    box-shadow: 0 10px 20px 1px rgba(111, 14, 171, 0.28);
+    border: 1px solid rgba(111, 14, 171, 0.28);
+}
+
+.planos .plano h1 {
+    font-size: 3.1em;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    text-shadow: -4px 5px 0px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: .5em;
+}
+
+.planos .plano span.melhorescolha {
+    position: absolute;
+    top: -15px;
+    left: 64px;
+    color: #f26078;
+    font-family: 'Archivo Black', sans-serif;
+    background: white;
+    border: 1px solid #f26078;
+    width: 13.2em;
+    padding: .4em;
+    line-height: 1;
+    text-align: center;
+    border-radius: .4em;
+}
+
+.planos .plano span.liv {
+    text-align: center;
+    color: white;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 1.5em;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: .8em;
+    border-radius: 3em;
+}
+
+.planos .plano .preco-valor {
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    width: max-content;
+    margin: 1em auto;
+}
+
+.planos .plano .preco-valor p {
+    display: inline-block;
+    font-size: 3.1em;
+    text-align: center;
+    margin: 0;
+}
+
+.planos .plano .preco-valor p:last-child {
+    font-size: 1em;
+}
+
+.planos .plano .adesao {
+    text-align: center;
+}
+
+.planos .plano .adesao .esq {
+    display: inline-block;
+    text-align: left;
+}
+
+.planos .plano .adesao .esq p {
+    margin: .1em;
+    display: inline-block;
+    color: white;
+    font-size: 0.8em;
+}
+
+.planos .plano .adesao .esq p:first-child {
+    display: block;
+}
+
+.planos .plano .help-icon img {
+    width: 1.3em;
+}
+
+.planos .plano .adesao .dir {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 2.9em;
+}
+
+.planos .plano .adesao .dir select option {
+    color: gray;
+    text-align: center;
+}
+
+.planos .plano .adesao .dir select,
+.planos .plano .adesao .dir p {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    padding: .8em;
+    border-radius: 0.3em;
+    text-align: center;
+    width: 9em;
+    margin: 0;
+    outline: 0;
+    font-size: 0.8em;
+}
+
+.planos .plano .adesao .dir p {
+    width: 7em;
+}
+
+.planos .plano a.btn-a {
+    font-family: 'Archivo Black', sans-serif;
+    text-decoration: none;
+    font-size: 1.1em;
+    text-align: center;
+    background: white;
+    text-transform: uppercase;
+    padding: 1em;
+    display: block;
+    margin: 2em auto;
+    width: 80%;
+    border-radius: 3em;
+}
+
+.planos .plano.mini a.btn-a {
+    color: #01aeba;
+}
+
+.planos .plano.uni a.btn-a {
+    color: #f26078;
+}
+
+.planos .plano.duni a.btn-a {
+    color: #6e1ea0;
+}
+
+.planos .plano .plano-info {
+    margin: 6em 0 0 0;
+    padding: 0 .9em;
+}
+
+.planos .plano .plano-info h3 {
+    font-size: 1.2em;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.planos .plano .plano-info .info-item i {
+    color: #01aeba;
+    padding-right: 4px;
+    padding-top: 5px;
+    font-size: .9em;
+    vertical-align: top;
+}
+
+.planos .plano .plano-info .info-item span {
+    display: inline-block;
+    width: 91.5%;
+    vertical-align: -webkit-baseline-middle;
+    font-size: .8rem;
+    margin-bottom: 2em;
+    line-height: 1.7em;
+}
+
+.planos .plano .plano-info .info-item span span {
+    display: contents;
+}
+
+.planos .plano .plano-info .info-item span .to-bold {
+    color: #525f7f;
+    text-decoration: none;
+}
+
+#bg-footer-topo {
+    background-image: url(http://127.0.0.1:5501/style/../img/footer-top.png);
+    background-repeat: no-repeat;
+    background-size: 107%;
+    height: 17.5em;
+    position: relative;
+    bottom: -1003px;
+    left: 0;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: #00D1DF;
+    background-image: url(../img/pattern_8black.png);
+}
+
+footer #animais {
+    position: relative;
+}
+
+footer #animais img {
+    position: absolute;
+}
+
+footer #animais img#girafa {
+    top: -15em;
+    left: 16em;
+}
+
+footer #animais img#abelha {
+    top: -9em;
+    right: 25em;
+}
+
+footer #animais img#carangueijo {
+    right: 10em;
+    top: -5em;
+}
+
+footer .central {
+    display: block;
+    padding-top: 5em;
+}
+
+.central div+div {
+    margin-left: 4%;
+}
+
+footer .central div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer .central div h1 {
+    color: #4e6363;
+    font-size: 1.2em;
+}
+
+footer .central div a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+footer .central #empresa a,
+footer .central #familiaplaykids a {
+    margin-bottom: 1em;
+    display: block;
+}
+
+footer .central #siga-nos {
+    width: 20em;
+}
+
+footer .central #siga-nos a {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+footer .central #siga-nos a:nth-last-of-type(3) {
+    margin-left: 5em;
+}
+
+footer .central #siga-nos a:nth-last-of-type(1) {
+    margin-left: 3.7em;
+}
+
+footer .central #siga-nos a span {
+    background-image: url(../img/sprites-social.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 .5em 0 0;
+}
+
+footer .central #siga-nos a span.facebook {
+    background-position: -5px -5px;
+    width: 25px;
+    height: 25px;
+}
+
+footer .central #siga-nos a span.instagram {
+    background-position: -40px -5px;
+    width: 26px;
+    height: 26px;
+}
+
+footer .central #siga-nos a span.twitter {
+    background-position: -76px -5px;
+    width: 28px;
+    height: 22px;
+}
+
+footer .central #siga-nos a span.youtube {
+    background-position: -114px -5px;
+    width: 30px;
+    height: 21px;
+}
+
+footer .central #formasdepagamento .cartao {
+    background-image: url(../img/formas-pgto.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-left: .5em;
+}
+
+footer .central #formasdepagamento .cartao.visa {
+    background-position: -272px -5px;
+    width: 33px;
+    height: 11px;
+}
+
+footer .central #formasdepagamento .cartao.master {
+    background-position: -229px -5px;
+    width: 33px;
+    height: 21px;
+}
+
+footer .central #formasdepagamento .cartao.amex {
+    background-position: -60px -5px;
+    width: 28px;
+    height: 28px;
+}
+
+footer .central #formasdepagamento .cartao.elo {
+    background-position: -137px -5px;
+    width: 28px;
+    height: 28px;
+}
+
+footer .central #formasdepagamento .cartao.diners {
+    background-position: -98px -5px;
+    width: 29px;
+    height: 25px;
+}
+
+footer .central #formasdepagamento .cartao.hipercard {
+    background-position: -175px -5px;
+    width: 44px;
+    height: 19px;
+}
+
+footer #informacoes {
+    background-color: rgba(6, 72, 77, 0.25);
+    height: 5em;
+}
+
+footer #informacoes .cnpj,
+footer #informacoes .fone,
+footer #informacoes .mail {
+    display: inline-block;
+    margin: 1.23em 3.5%;
+    margin-bottom: 0;
+}
+
+footer #informacoes .cnpj {
+    vertical-align: bottom;
+    color: #4e6363;
+}
+
+footer #informacoes .cnpj p {
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+footer #informacoes .fone div {
+    width: 19em;
+    display: inline-block;
+}
+
+footer #informacoes .mail div {
+    display: inline-block;
+}
+
+footer #informacoes .fone div p {
+    font-size: 0.8em;
+}
+
+footer #informacoes .fone div p,
+footer #informacoes .fone div h4 {
+    color: white;
+    margin: 0;
+    display: inline-block;
+}
+
+footer #informacoes .mail a {
+    color: white;
+    text-decoration: none;
+}
+
+footer #informacoes .mail a h4 {
+    margin: 0;
+}
+
+footer #informacoes div .icon {
+    background-image: url(../img/sprites-contatos.png);
+    background-repeat: no-repeat;
+    background-size: 4em;
+    display: inline-block;
+}
+
+footer #informacoes div .icon.mail {
+    background-position: -2px -3px;
+    width: 27px;
+    height: 27px;
+    margin: 0 .5em 0 0;
+}
+
+footer #informacoes div .icon.fone {
+    background-position: -34px -3px;
+    width: 27px;
+    height: 27px;
+    margin: 0 .5em 0 0;
+}
+
+
+/*BREAKPOINTS*/
+
+
+/*Até 1024px*/
+
+@media only screen and (max-width: 1024px) {
+    .central {
+        width: 63%;
+    }
+    .menu {
+        height: 4.3em;
+    }
+    .menu #logo-menu img {
+        max-width: 11.5em;
+        margin: 1em 0 0 3%;
+    }
+    .menu nav {
+        width: 100%;
+        margin: .5em 0;
+        background-color: white;
+        padding: .67em;
+        border-top: 1px solid #80808073;
+    }
+    .menu nav a {
+        padding: .5em 4em;
+        font-size: .9em;
+    }
+    .menu nav a:first-child {
+        margin-left: 3em;
+    }
+    .menu nav a:nth-last-child(2) {
+        display: none;
+    }
+    .menu nav #login-btn {
+        position: absolute;
+        top: 1em;
+        right: 2em;
+    }
+    .menu nav #login-btn #box-login a img {
+        display: none;
+    }
+    .menu nav #login-btn a {
+        padding: 0;
+    }
+    .apresentacao {
+        background-image: url(../img/topo-menina-livro_tablet.jpg);
+    }
+    .apresentacao .central .apresentacao-conteudo h1 {
+        font-size: 2.1em;
+        letter-spacing: -1px;
+        text-align: center;
+    }
+    .apresentacao .central .apresentacao-conteudo {
+        width: 100%;
+        margin: 1.8em 0 2em;
+    }
+    .apresentacao .central .apresentacao-conteudo p {
+        font-size: 1.1em;
+        margin-bottom: 2em;
+    }
+    .apresentacao .central .apresentacao-conteudo .btn-conhecaokit a,
+    .comofunciona .passos .btn-aproveiteagora a,
+    .comovocevaireceber .btn-aproveiteagora a {
+        background-color: #01aeba;
+        box-shadow: 0 3px 0 #017c84;
+    }
+    .comofunciona {
+        background-color: #EDEFF2;
+    }
+    .comofunciona .comofunciona-titulo h1 {
+        color: #01aeba;
+        font-size: 3.2em;
+        width: 6em;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .comofunciona .comofunciona-titulo h2 {
+        color: #525f7f;
+        text-align: center;
+    }
+    .comofunciona .passos .comofunciona-titulo,
+    .comofunciona .passos ul {
+        display: inline;
+    }
+    .comofunciona .img-azul {
+        display: none;
+    }
+    .comofunciona .img-cinza {
+        display: inline-block;
+    }
+    .comofunciona .passos ul li h1 {
+        color: #525f7f;
+        font-size: 1.2em;
+        display: inline-block;
+        vertical-align: bottom;
+        width: 12em;
+    }
+    .comofunciona .passos ul li p {
+        color: #69707b;
+        font-size: 1em;
+    }
+    .comofunciona .passos ul li p span {
+        font-family: 'Archivo', sans-serif;
+    }
+    .comofunciona .passos ul li {
+        width: 90%;
+        display: block;
+        margin: 2em auto 3em;
+        padding: 0;
+    }
+    .comofunciona .passos ul li img {
+        width: 10em;
+    }
+    .comovocevaireceber .central {
+        width: 87%;
+    }
+    .comovocevaireceber h1.titulo {
+        font-size: 2.5em;
+    }
+    .comovocevaireceber #carroussel .texto {
+        display: none;
+    }
+    .comovocevaireceber #carroussel .circulo {
+        display: inline-block;
+    }
+    .comovocevaireceber #carroussel label p {
+        padding: 1em 1.34em;
+        border-radius: 5em;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.imagem {
+        float: none;
+        margin: 0 auto;
+        width: 23em;
+        background-position: bottom;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.slide-texto {
+        position: absolute;
+        width: 76%;
+        left: 12%;
+        top: 34%;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.slide-texto p {
+        text-align: center;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel .slide div.sl {
+        position: relative;
+        height: 34em;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.slide-texto h1 {
+        display: none;
+    }
+    .planos {
+        height: max-content;
+    }
+    .planos .planos-background img {
+        display: none;
+    }
+    .planos .planos-cabecalho {
+        width: 100%;
+        margin: 0;
+    }
+    .planos .central {
+        width: 95%;
+    }
+    .planos .planos-cabecalho h1 {
+        font-size: 2.7em;
+    }
+    .planos .planos-box.desktop .plano {
+        display: none;
+    }
+    .planos .planos-box.mobile .plano {
+        display: block;
+        float: none;
+        width: 50%;
+        height: fit-content;
+        margin: 4em auto;
+    }
+    #bg-footer-topo {
+        background-size: cover;
+        height: 12em;
+        bottom: 0;
+    }
+    footer #animais img#carangueijo {
+        display: none;
+    }
+    footer #animais img#girafa {
+        top: -16em;
+        left: 5em;
+    }
+    footer #animais img#abelha {
+        top: -10em;
+        right: 8em;
+    }
+    footer .central div {
+        display: block;
+        margin: 3em 0;
+        text-align: center;
+    }
+    footer .central #siga-nos {
+        width: 21em;
+        margin: 3em auto;
+    }
+    footer #informacoes {
+        height: 7em;
+    }
+    footer #informacoes .cnpj,
+    footer #informacoes .fone,
+    footer #informacoes .mail {
+        display: inline-block;
+        margin: 0.23em 7% 0;
+    }
+    footer #informacoes .cnpj {
+        width: 100%;
+        text-align: center;
+        margin: .5em 0 0 0;
+    }
+}
+
+
+/*Até 768px*/
+
+@media only screen and (max-width: 768px) {
+    .menu nav a {
+        padding: 0.5em 1em;
+        margin: 0;
+        display: inline-block;
+        width: 22%;
+        text-align: center;
+        font-size: .78em;
+    }
+    .menu nav a:first-child {
+        margin-left: 0;
+        width: 33%;
+    }
+    .menu nav #login-btn a {
+        display: inline;
+    }
+    .apresentacao {
+        background-image: url(../img/topo-menina-livro_mobile.jpg);
+        background-repeat: no-repeat;
+        margin-top: 2.8em;
+        padding-top: 14em;
+        background-size: contain;
+    }
+    .apresentacao .central {
+        width: 100%;
+        background-color: #6E1EA0;
+    }
+    .btn-aproveiteagora {
+        display: block;
+    }
+    .apresentacao .onda-roxa {
+        display: inline-block;
+        position: relative;
+        top: 5px;
+    }
+    .apresentacao .div-onda {
+        display: none;
+    }
+    .apresentacao .central .apresentacao-conteudo p {
+        display: none;
+    }
+    .apresentacao .central .apresentacao-conteudo .btn-conhecaokit,
+    .comofunciona .passos .btn-aproveiteagora {
+        width: fit-content;
+        margin: 3em auto;
+    }
+    .comofunciona .comofunciona-titulo h1 {
+        font-size: 2em;
+        width: 100%;
+    }
+    .comofunciona .central {
+        width: 90%;
+    }
+    .comofunciona .passos ul li h1 {
+        font-size: 1.1em;
+    }
+    .comofunciona .passos ul li img {
+        width: 7em;
+    }
+    .comofunciona .passos ul li p {
+        font-weight: 600;
+    }
+    .comofunciona .passos .btn-aproveiteagora {
+        margin: 6em auto .5em;
+    }
+    .comovocevaireceber div.div-onda-inversa img.onda-cinza {
+        display: inline-block;
+    }
+    .comovocevaireceber div.div-onda-inversa img.onda-azul {
+        display: none;
+    }
+    .comovocevaireceber h1.titulo {
+        font-size: 2em;
+        line-height: 1.2em;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel .slide {
+        margin-left: 0;
+    }
+    .comovocevaireceber #carroussel #slide02:checked~.principal-carroussel .slide {
+        margin-left: -116%;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.imagem img {
+        max-width: 19em;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.slide-texto {
+        width: 100%;
+        left: 0;
+    }
+    .comovocevaireceber #carroussel #slide03:checked~.principal-carroussel .slide {
+        margin-left: -231%;
+    }
+    .comovocevaireceber #carroussel #slide04:checked~.principal-carroussel .slide {
+        margin-left: -346%;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel {
+        width: 23.2em;
+        margin: 0 auto;
+    }
+    .comovocevaireceber .btn-aproveiteagora {
+        width: fit-content;
+        margin: 0 auto 7em;
+    }
+    .planos .planos-background,
+    .planos .central,
+    .planos .planos-box {
+        display: none;
+    }
+    footer #animais img#abelha {
+        display: none;
+    }
+    #bg-footer-topo {
+        background-size: 53em;
+        height: 8.3em;
+        bottom: 0;
+    }
+    footer #animais img#girafa {
+        top: -12em;
+        left: 3em;
+    }
+    footer .central {
+        width: 100%;
+    }
+    footer #informacoes .fone,
+    footer #informacoes .mail {
+        width: fit-content;
+        display: block;
+        margin: .5em auto;
+    }
+    footer #informacoes {
+        height: 10em;
+    }
+}
+
+
+/*Até 425px*/
+
+@media only screen and (max-width: 425px) {
+    .comovocevaireceber #carroussel .principal-carroussel {
+        width: 17.2em;
+    }
+    .comovocevaireceber #carroussel .principal-carroussel div.imagem {
+        width: 17em;
+    }
+    .menu nav {
+        text-align: center;
+    }
+    .menu nav a {
+        padding: .5em;
+        width: fit-content;
+    }
+    .apresentacao {
+        margin-top: 2.9em;
+        padding-top: 10em;
+    }
+    .apresentacao .onda-roxa {
+        top: 5px;
+    }
+    .apresentacao .central .apresentacao-conteudo h1 {
+        font-size: 1.7em;
+    }
+    .comofunciona .central {
+        width: 99%;
+    }
+    .comofunciona .passos ul li img {
+        width: 6em;
+    }
+    .comofunciona .passos ul li h1 {
+        font-size: 1em;
+        width: 11em;
+    }
+    footer #animais img#girafa {
+        display: none;
+    }
+    footer #animais img#abelha {
+        display: inline-block;
+        top: -7em;
+        right: 3em;
+    }
+    #bg-footer-topo {
+        background-size: 26em;
+        height: 4.15em;
+        bottom: 0;
+    }
+    footer .central #siga-nos {
+        width: fit-content;
+    }
+    footer .central #siga-nos a:nth-last-of-type(3) {
+        margin-left: 0;
+    }
+    footer .central #siga-nos a:nth-last-of-type(1) {
+        margin-left: 0;
+    }
+    footer .central #siga-nos a {
+        display: block;
+    }
+    footer #informacoes .fone div {
+        width: 16em;
+    }
+    footer #informacoes div .icon.fone {
+        margin: 0 0 0 0;
+    }
+}

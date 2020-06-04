@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!--FONTES GOOGLE-->
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+
+    <link type="text/css" rel="stylesheet" href="style/normalize.css">
+    <link type="text/css" rel="stylesheet" href="style/estilo.css">
+
+    <!--[if lt IE 9]>
+        <script src="script/html5shiv.js"></script>
+    <![endif]-->
+
+    <script src="script/prefixfree.min.js"></script>
+
+    <title>Clone do Site Leiturinha</title>
+</head>
+
+<body>
+    <header class="menu">
+        <a href="/" id="logo-menu">
+            <img alt="Logo Leiturinha" src="./img/logo-leiturinha.svg">
+        </a>
+        <nav>
+            <a class="to-bold" href="/">Como Funciona</a>
+            <a class="to-bold" href="/">Conheça o Kit</a>
+            <a class="to-bold" href="/">Planos</a>
+            <a class="to-bold" href="/">Dúvidas</a>
+            <div id="login-btn">
+                <div id="box-login">
+                    <a href="/">Login<img src="./img/ico-seta-down.png"></a>
+
+                </div>
+                <div id="login-popup">
+                    <a href="/"><i class="fas fa-user"></i>Área do Assinante</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="apresentacao">
+        <img class="onda-roxa" src="./img/onda-roxa.svg">
+        <div class="central">
+            <div class="apresentacao-conteudo">
+                <h1>O livro ideal para seu pequeno, todo mês na sua casa!</h1>
+                <p>Faça parte do maior
+                    <span class="to-bold">clube do livro infantil</span> e aproveite para ler e viver as melhores histórias.</p>
+                <div class="btn-conhecaokit">
+                    <a href="/">Conheça o kit</a>
+                </div>
+            </div>
+        </div>
+        <div class="div-onda">
+            <img src="img/onda-topo.svg">
+        </div>
+    </section>
+    <section class="comofunciona">
+        <div class="central">
+            <div class="passos">
+                <div class="comofunciona-titulo">
+                    <h1>Como funciona?</h1>
+                    <h2>CONHEÇA O CLUBE LEITURINHA</h2>
+                </div>
+                <ul>
+                    <li>
+                        <img class="img-azul" src="./img/azul-pacote.png">
+                        <img class="img-cinza" src="./img/cinza-pacote.png">
+                        <h1>Escolha o plano ideal</h1>
+                        <p>Todo mês um
+                            <span class="to-bold">kit de livros</span> para tornar incrível o momento de leitura em família.</p>
+                    </li>
+                    <li>
+                        <img class="img-azul" src="./img/azul-livros.png">
+                        <img class="img-cinza" src="./img/cinza-livros.png">
+                        <h1>Receba os melhores livros infantis</h1>
+                        <p>
+                            <span class="to-bold">Livros para crianças</span> selecionados por especialistas para cada fase de desenvolvimento.</p>
+                    </li>
+                    <li>
+                        <img class="img-azul" src="./img/azul-menino.png">
+                        <img class="img-cinza" src="./img/cinza-menino.png">
+                        <h1>Incentive o hábito da leitura em casa</h1>
+                        <p>Viva momentos mágicos de leitura, com
+                            <span class="to-bold">histórias para crianças</span> e toda a família.</p>
+                    </li>
+                </ul>
+                <div class="btn-aproveiteagora">
+                    <a href="/">Aproveite agora</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="comovocevaireceber">
+        <div class="div-onda-inversa">
+            <img class="onda-azul" src="img/onda-base.svg">
+            <img class="onda-cinza" src="./img/onda-cinza.svg">
+        </div>
+        <div class="central">
+            <h1 class="titulo">Descubra o que você vai <span class="color-pink">receber</span></h1>
+            <div id="carroussel">
+                <input type="radio" id="slide01" name="grupo1" checked>
+                <label class="label-rosa to-bold texto" for="slide01"><p>1. Livros Infantis</p></label>
+                <label class="label-rosa to-bold circulo" for="slide01"><p>1</p></label>
+                <input type="radio" id="slide02" name="grupo1">
+                <label class="label-azul to-bold texto" for="slide02"><p>2. Surpresinhas</p></label>
+                <label class="label-azul to-bold circulo" for="slide02"><p>2</p></label>
+                <input type="radio" id="slide03" name="grupo1">
+                <label class="label-laranja to-bold texto" for="slide03"><p>3. Apoio aos pais</p></label>
+                <label class="label-laranja to-bold circulo" for="slide03"><p>3</p></label>
+                <input type="radio" id="slide04" name="grupo1">
+                <label class="label-amarelo to-bold texto" for="slide04"><p>4. Benefícios exclusivos</p></label>
+                <label class="label-amarelo to-bold circulo" for="slide04"><p>4</p></label>
+                <div class="principal-carroussel">
+                    <div class="slide">
+                        <div class="sl">
+                            <div class="slide-texto">
+                                <h1 class="rosa">Títulos selecionados por especialistas</h1>
+                                <p>Os <span class="to-bold rosa">livros infantis</span> são escolhidos de acordo com as fases de desenvolvimento da criança, <span class="to-bold rosa">garantindo leituras ideais para cada idade:</span> desde o nascimento,até
+                                    12 anos.</p>
+                            </div>
+                            <div class="imagem">
+                                <img src="./img/books.jpg">
+                            </div>
+                        </div>
+                        <div class="sl">
+                            <div class="slide-texto">
+                                <h1 class="azul">Todo mês uma novidade</h1>
+                                <p>Cada edição vem com uma surpresinha desenvolvida especialmente para o pequeno leitor. São <span class="to-bold azul">brinquedos para montar</span>, <span class="to-bold azul">jogos educativos</span> e <span class="to-bold azul">itens para utilizar no dia a dia.</span></p>
+                            </div>
+                            <div class="imagem">
+                                <img src="./img/surpresinha-maio.jpg">
+                            </div>
+                        </div>
+                        <div class="sl">
+                            <div class="slide-texto">
+                                <h1 class="laranja">Para enriquecer sua experiência de leitura</h1>
+                                <p>Receba nosso apoio e <span class="to-bold laranja">dicas para mediar a leitura do mês</span> no <span class="to-bold laranja">Aplicativo Leiturinha</span>, onde você também pode acompanhar suas entregas e o desenvolvimento
+                                    do seu pequeno!</p>
+                            </div>
+                            <div class="imagem">
+                                <img src="./img/app-parents.png">
+                            </div>
+                        </div>
+                        <div class="sl">
+                            <div class="slide-texto">
+                                <h1 class="amarelo">Descontos exclusivos em nossa loja online</h1>
+                                <p>Garanta preços especiais de assinante na Loja Leiturinha! Uma <span class="to-bold amarelo">seleção especial de livros infantis</span> para deixar a biblioteca ainda mais completa.</p>
+                            </div>
+                            <div class="imagem">
+                                <img src="./img/web-devices.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="btn-aproveiteagora">
+            <a href="/">Aproveite agora</a>
+        </div>
+    </section>
+    <section class="planos">
+        <div class="planos-background">
+            <img src="./img/promo-regua-02.jpg">
+        </div>
+        <div class="central">
+            <div class="planos-cabecalho">
+                <h1>Incentive o hábito da leitura</h1>
+                <h2>Escolha a Leiturinha ideal para seu pequeno!</h2>
+            </div>
+        </div>
+        <div class="planos-box desktop">
+            <div class="plano duni">
+                <h1>DUNI</h1>
+                <span class="liv"><span class="to-bold">2 LIVROS POR MÊS</span> e muito mais</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">59,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <select>
+                            <option value="12 meses" default>12 meses</option>         
+                            <option value="6 meses" >6 meses</option>         
+                            <option value="Sem adesão" >Sem adesão</option>         
+                        </select>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>02 <span class="to-bold">Livros infantis</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Apoio aos Pais</span> e dicas de mediação da leitura com acesso completo ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Surpresinhas especiais</span> para brincar e estimular o desenvolvimento</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Descontos exclusivos na <a href="/" class="to-bold">Loja Leiturinha</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês:</span> Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+            <div class="plano uni">
+                <span class="melhorescolha">MELHOR ESCOLHA</span>
+                <h1>UNI</h1>
+                <span class="liv"><span class="to-bold">1 LIVRO POR MÊS</span> e muito mais</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">39,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <select>
+                            <option value="12 meses" default>12 meses</option>         
+                            <option value="6 meses" >6 meses</option>         
+                            <option value="Sem adesão" >Sem adesão</option>         
+                        </select>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>01 <span class="to-bold">Livro infantil</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Apoio aos Pais</span> e dicas de mediação da leitura com acesso completo ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Surpresinhas especiais</span> para brincar e estimular o desenvolvimento</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Descontos exclusivos na <a href="/" class="to-bold">Loja Leiturinha</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês:</span> Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+            <div class="plano mini">
+                <h1>MINI</h1>
+                <span class="to-bold liv">1 LIVRO POR MÊS</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">29,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <p>6 meses</p>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>01 <span class="to-bold">Livro infantil</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Acesso parcial ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês: </span>Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="planos-box mobile">
+            <div class="plano mini">
+                <h1>MINI</h1>
+                <span class="to-bold liv">1 LIVRO POR MÊS</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">29,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <p>6 meses</p>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>01 <span class="to-bold">Livro infantil</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Acesso parcial ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês: </span>Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+            <div class="plano uni">
+                <span class="melhorescolha">MELHOR ESCOLHA</span>
+                <h1>UNI</h1>
+                <span class="liv"><span class="to-bold">1 LIVRO POR MÊS</span> e muito mais</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">39,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <select>
+                            <option value="12 meses" default>12 meses</option>         
+                            <option value="6 meses" >6 meses</option>         
+                            <option value="Sem adesão" >Sem adesão</option>         
+                        </select>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>01 <span class="to-bold">Livro infantil</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Apoio aos Pais</span> e dicas de mediação da leitura com acesso completo ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Surpresinhas especiais</span> para brincar e estimular o desenvolvimento</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Descontos exclusivos na <a href="/" class="to-bold">Loja Leiturinha</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês:</span> Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+            <div class="plano duni">
+                <h1>DUNI</h1>
+                <span class="liv"><span class="to-bold">2 LIVROS POR MÊS</span> e muito mais</span>
+                <div class="preco-valor">
+                    <p class="moeda">R$</p>
+                    <p class="valor">59,90</p>
+                    <p class="periodo">/mês</p>
+                </div>
+                <div class="adesao">
+                    <div class="esq">
+                        <p>Período</p>
+                        <p>de adesão</p>
+                        <i class="help-icon" data-toggle="tooltip" data-placement="bottom" title="É o período de contratação do plano. Por exemplo, no período de adesão de 6 meses, seu pequeno vai receber nosso kit todo mês durante esse tempo."><img src="./img/ico-interroga.png"></i>
+                    </div>
+                    <div class="dir">
+                        <select>
+                            <option value="12 meses" default>12 meses</option>         
+                            <option value="6 meses" >6 meses</option>         
+                            <option value="Sem adesão" >Sem adesão</option>         
+                        </select>
+                    </div>
+                </div>
+                <a class="btn-a" href="/">Aproveite Agora</a>
+                <div class="plano-info">
+                    <h3>O que você recebe:</h3>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>02 <span class="to-bold">Livros infantis</span> por mês selecionado por especialistas</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Apoio aos Pais</span> e dicas de mediação da leitura com acesso completo ao <span class="to-bold">Aplicativo Leiturinha</span></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Surpresinhas especiais</span> para brincar e estimular o desenvolvimento</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span>Descontos exclusivos na <a href="/" class="to-bold">Loja Leiturinha</a></span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-check"></i>
+                        <span><span class="to-bold">Exclusivo do mês:</span> Girafinha Medidora para acompanhar o crescimento do pequeno</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bg-footer-topo"></div>
+    </section>
+    <footer>
+        <div id="animais">
+            <img id="girafa" src="./img/girafa.png">
+            <img id="abelha" src="./img/abelha.png">
+            <img id="carangueijo" src="./img/carangueijo.png">
+        </div>
+        <div class="central">
+            <div id="empresa">
+                <h1>Empresa</h1>
+                <a href="/">Sobre Nós</a>
+                <a href="/">Clube do Livro</a>
+                <a href="/">O Que Vem no Kit</a>
+                <a href="/">Prazo de Entrega</a>
+                <a href="/">Termos de Uso</a>
+                <a href="/">Política de Privacidade</a>
+                <a href="/">Assessoria de Imprensa</a>
+            </div>
+            <div id="familiaplaykids">
+                <h1>Família PlayKids</h1>
+                <a href="/">Loja Leiturinha</a>
+                <a href="/">Blog Leiturinha</a>
+                <a href="/">Explorer</a>
+                <a href="/">PlayKids App</a>
+            </div>
+            <div id="siga-nos">
+                <h1>Siga-nos</h1>
+                <a href="/"><span class="facebook"></span>/leiturinha</a>
+                <a href="/"><span class="instagram"></span>@leiturinha</a>
+                <a href="/"><span class="twitter"></span>@_leiturinha</a>
+                <a href="/"><span class="youtube"></span>/leiturinha</a>
+            </div>
+            <div id="formasdepagamento">
+                <h1>Formas de pagamento</h1>
+                <span class="cartao visa"></span>
+                <span class="cartao master"></span>
+                <span class="cartao amex"></span>
+                <span class="cartao elo"></span>
+                <span class="cartao diners"></span>
+                <span class="cartao hipercard"></span>
+            </div>
+        </div>
+        <div id="informacoes">
+            <div class="cnpj">
+                <p>LEITURINHA S/A CNPJ 21.043.282/0001-84</p>
+            </div>
+            <div class="fone">
+                <span class="icon fone"></span>
+                <div>
+                    <h4 class="to-bold">4000 1718</h4>
+                    <p> para telefones celulares</p>
+                    <h4 class="to-bold">0800 944 1718</h4>
+                    <p> para telefones fixos</p>
+                </div>
+            </div>
+            <div class="mail">
+                <span class="icon mail"></span>
+                <div>
+                    <a href="/">
+                        <h4 class="to-bold">Fale conosco</h4>
+                    </a>
+                    <a href="/">
+                        <h4 class="to-bold">Trabalhe conosco</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
